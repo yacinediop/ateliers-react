@@ -23,6 +23,10 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.propos{
+  width: 800px;
+  height: 500px;
+}
 
 .App-link {
   color: #61dafb;
