@@ -29,9 +29,12 @@ function BasicExample() {
         <Form.Control type="password" placeholder="Veillez confirmez votre mot de passe" />
       </Form.Group>
      
+      <Link to="/" className='text-decoration-none text-primary'>
       <Button variant="success" type="s'inscrire">
         S'inscrire
       </Button>
+      </Link>
+
       <p className='mt-4'>Vous avez pas encore de compte?<Link to="/connexion" className='text-decoration-none text-primary'>Se connecter</Link></p> 
     </Form>
   );
